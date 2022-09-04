@@ -7,7 +7,7 @@ spichis = [3, True, 1000.3, 70, 'Python', '90']
 
 print(spichis[0])
 print(spichis[-1])
-print(spichis[2:5])
+print(spichis[1:5])
 
 spichis.remove('Python')
 print(spichis)

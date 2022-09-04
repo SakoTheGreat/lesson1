@@ -6,6 +6,8 @@
 
 slovarik = {"city": "Москва", "temperature": "20"}
 
+# Знаю про bool, но иногда забываю, что можно и так=)
+print('country' in slovarik)
 print(slovarik.get('country', "Россия"))
 
 slovarik['date'] = '27.05.2019'

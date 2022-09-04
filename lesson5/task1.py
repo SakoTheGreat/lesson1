@@ -6,6 +6,6 @@
 
 slovarik = {"city": "Москва", "temperature": "20"}
 print(slovarik['city'])
-
-slovarik['temperature'] = '15'
+# ROBOTI RABOTAT!
+slovarik['temperature'] = str(int(slovarik['temperature'])-5)
 print(slovarik)

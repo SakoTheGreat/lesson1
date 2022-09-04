@@ -11,8 +11,8 @@ def get_summ(one, two, delimiter='&'):
     one = str(one)
     two = str(two)
     resultik = f'{one}{delimiter}{two}'
-    return resultik
+    return resultik.upper()
 
 
 resultik_resultika = get_summ('Learn', 'python')
-print(resultik_resultika.upper())
+print(resultik_resultika)
